@@ -1,0 +1,48 @@
+.section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#header {
+  height: 135px;
+  color: #730400;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+
+    li {
+      padding-right: 10px;
+      & + li {
+        border-left: 1px solid #730400;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+#nav {
+  background-color: #730400;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    li {
+      padding: 30px 0;
+    }
+  }
+}
+
+#banner {
+  ul {
+    li {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
